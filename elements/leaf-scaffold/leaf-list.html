@@ -1,0 +1,22 @@
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<polymer-element name="leaf-list" attributes="">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+
+      ::content h2{}
+      ::content paper-item{float: left;}
+    </style>
+
+    <content select="h2"></content>
+    <content select="*"></content>
+  </template>
+  <script>
+    Polymer({
+
+    });
+  </script>
+</polymer-element>

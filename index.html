@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>小树叶</title>
+  <meta name="description" content="">
+
+  <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Chrome / Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="black">
+  <link rel="icon" href="icon.png">
+
+  <!-- Safari / iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+
+  <!-- Web Components -->
+  <script>
+    if ('registerElement' in document
+    && 'createShadowRoot' in HTMLElement.prototype
+    && 'import' in document.createElement('link')
+    && 'content' in document.createElement('template')) {
+      // Native WC support. Do nothing
+    } else {
+      document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
+    }
+  </script>
+
+  <link rel="import" href="/elements/leaf-scaffold/leaf-scaffold.html">
+  <link rel="import" href="/elements/leaf-list/leaf-list.html">
+  <link rel="import" href="/bower_components/core-menu/core-menu.html">
+  <link rel="import" href="/bower_components/paper-item/paper-item.html">
+  <link rel="import" href="/bower_components/paper-input/paper-input.html">
+  <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+  <link rel="import" href="/bower_components/paper-button/paper-button.html">
+  <style>
+
+  </style>
+</head>
+<body unresolved fullbleed vertical layout>
+  <leaf-scaffold>
+    <core-header-panel navigation flex drawer mode="seamed">
+      <core-toolbar><h2 class="logo">小树叶</h2></core-toolbar>
+      <core-menu>
+        <paper-item><a href="">奶粉</a></paper-item>
+        <paper-item><a href="">营养辅食</a></paper-item>
+        <paper-item><a href="">尿裤湿巾</a></paper-item>
+        <paper-item><a href="">洗护用品</a></paper-item>
+        <paper-item><a href="">童车童床</a></paper-item>
+        <paper-item><a href="">喂养用品</a></paper-item>
+        <paper-item><a href="">服饰寝居</a></paper-item>
+        <paper-item><a href="">童装童鞋</a></paper-item>
+        <paper-item><a href="">妈妈专区</a></paper-item>
+        <paper-item><a href="">玩具乐器</a></paper-item>
+      </core-menu>
+    </core-header-panel>
+    <div fit>
+      <leaf-list>
+        <h2>奶粉 <paper-button><a href="#">更多&gt;</a></paper-button></h2>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+      </leaf-list>
+      <leaf-list>
+        <h2>奶粉 <paper-button><a href="#">更多&gt;</a></paper-button></h2>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+        <paper-item>
+          <a href="#">
+            <img src="images/1.jpg" alt="">
+            <h3>嘉宝 婴幼儿苹果米粉</h3>
+            <p><strong>&yen;39</strong> 3~6个月</p>
+          </a>
+        </paper-item>
+      </leaf-list>
+    </div>
+  </leaf-scaffold>
+</body>
+</html>
